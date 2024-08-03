@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 4124,
+        "first_name" : "Agustin",
+        "last_name": "Pupich",
+        "avatar" : "https://randomuser.me/api/portraits/men/83.jpg",
+        "notifications" : 7,
+        "new_events" : 4,
+        "new_messages" : 13,
+        "new_followers" : 2,
+        "total_followers" : 134,
+        "total_followed" : 56,
+        "followers_posts": [
+            {
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1hour ago",
+                "comments":[]
+            },
+            {
+                "user":{
+                    "first_name": "Joaquin",
+                    "last_name": "Stachioni",
+                    "avatar": "https://randomuser.me/api/portraits/men/59.jpg"
+                },
+                "desc": "Disfrutando de mi homosex",
+                "post":"https://depor.com/resizer/MhnHItcWnZb8Y0PHpFm7f6SBgw0=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UAOH57QBOZG6PDDO7VB3JXQP6I.jpg",
+                "uploaded_ago":"1day ago",
+                "comments":[]
+            }
+        ]
+    }
+]

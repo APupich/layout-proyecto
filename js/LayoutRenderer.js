@@ -27,7 +27,7 @@ export class LayoutRenderer {
         this.#extraComponents = buff;
     }
     
-    renderMain(pageName) {
+    async renderMain(pageName) {
         console.log(pageName);
         this.#actualPage = pageName
         const pageFunction = this.#pages[pageName];
@@ -36,7 +36,7 @@ export class LayoutRenderer {
             this.renderHeader(pageName);
             this.renderNavbar(pageName);
             if (pageFunction.length >= 1) {
-                document.getElementById('content').innerHTML = pageFunction(this.#extraComponents);
+                document.getElementById('content').innerHTML =await pageFunction(this.#extraComponents);
             }else{
                 document.getElementById('content').innerHTML = pageFunction();
             }
@@ -54,12 +54,12 @@ export class LayoutRenderer {
             document.getElementById('content').innerHTML = '<h1>404 Not Found</h1>';
         }
     }
-    renderHeader() {
+    async renderHeader() {
         let headerE = document.querySelector('header')
         headerE.classList.add("flex", "flex_centerx", "flex_spbw","p-1");
         switch (this.#actualPage) {
             case "home":
-                document.getElementById("header").innerHTML = this.#components["header"]();
+                document.getElementById("header").innerHTML = await this.#components["header"]();
                 break;
             default:
                 document.getElementById("header").innerHTML = ""

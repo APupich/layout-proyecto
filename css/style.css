@@ -53,6 +53,7 @@ h5{font-size: 0.9rem;}
 .width17{width: 17rem;}
 .width16{width: 16rem;}
 
+.p-05{padding: 0.3rem;}
 .p-1{padding: 0.6rem;}
 .p-15{padding: 0.8rem;}
 .p-2{padding: 1rem;}
@@ -113,6 +114,10 @@ footer{
     background-color: var(--bg_secondary);
     color: var(--txt_light);
 }
+.avatar{
+    border-radius: 50%;
+    height: 3rem;
+}
 
 #tittle{
     width: 100%;
@@ -121,10 +126,6 @@ footer{
     div{width: 15rem;}
 }
 
-.avatar{
-    border-radius: 50%;
-    height: 2.7rem;
-}
 
 
 #notifications{
@@ -158,4 +159,7 @@ footer{
         flex: 0 0 8.5rem;
         height: 100%;
     }
+}
+#content{
+    margin-bottom: 5rem;
 }

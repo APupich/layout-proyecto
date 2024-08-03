@@ -24,6 +24,8 @@ document.addEventListener('DOMContentLoaded', main);
 
 function main() {
     let render = new LayoutRenderer(pages, [navbar, header], [post]);
-    render.renderMain('fyp');
+    render.renderMain('home');
+    localStorage.setItem('user_id', 4124);
+
     
 }

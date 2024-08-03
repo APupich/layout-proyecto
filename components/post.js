@@ -1,11 +1,11 @@
-export function post() {
+export function post(data) {
     return /*html */ `<article class="default_cont p-1">
-    <header class="flex flex_spbw pbot-1">
+    <header class="flex flex_spbw ">
         <div class="flex gap-1">
-            <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="" class="avatar" />
+            <img src="${data.user.avatar}" alt="" class="avatar" />
             <div class="">
-                <h5>Lorraine Mum</h5>
-                <h5 class="txt_subtitle f-07">1hour ago</h5>
+                <h5>${data.user.first_name} ${data.user.last_name}</h5>
+                <h5 class="txt_subtitle f-07">${data.uploaded_ago}</h5>
             </div>
         </div>
         <div class="grid_center">
@@ -14,8 +14,9 @@ export function post() {
     </header>
     <main>
         <div class="">
+            <p class="p-05 f-09">${data.desc}</p>
             <img class="br-04 max_content"
-                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/5f/41/f1/cajon-del-maipo-com-fundo.jpg?w=1400&h=1400&s=1"
+                src="${data.post}"
                 alt="" />
         </div>
     </main>
