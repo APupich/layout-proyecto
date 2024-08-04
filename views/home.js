@@ -18,7 +18,7 @@ export async function home(components) {
                 </div>
                 <div>
                     <h5 class="txt_subtitle bold-5">Notifications</h5>
-                    <h2>${user.notifications} News</h2>
+                    <h2 class="font-ui">${user.notifications} News</h2>
                 </div>
             </article>
             <article class="default_cont p-1">
@@ -29,7 +29,7 @@ export async function home(components) {
                 </div>
                 <div>
                     <h5 class="txt_subtitle bold-5">Events</h5>
-                    <h2>${user.new_events} invites</h2>
+                    <h2 class="font-ui">${user.new_events} invites</h2>
                 </div>
             </article>
             <article class="default_cont p-1">
@@ -40,7 +40,7 @@ export async function home(components) {
                 </div>
                 <div>
                     <h5 class="txt_subtitle bold-5">Messages</h5>
-                    <h2>${user.new_messages} New</h2>
+                    <h2 class="font-ui">${user.new_messages} New</h2>
                 </div>
             </article>
             <article class="default_cont p-1">
@@ -51,7 +51,7 @@ export async function home(components) {
                 </div>
                 <div>
                     <h5 class="txt_subtitle bold-5">Followers</h5>
-                    <h2>${user.new_followers} New</h2>
+                    <h2 class="font-ui">${user.new_followers} New</h2>
                 </div>
             </article>
         </section>

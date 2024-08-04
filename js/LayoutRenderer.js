@@ -36,9 +36,9 @@ export class LayoutRenderer {
             this.renderHeader(pageName);
             this.renderNavbar(pageName);
             if (pageFunction.length >= 1) {
-                document.getElementById('content').innerHTML =await pageFunction(this.#extraComponents);
+                document.getElementById('content').innerHTML = await pageFunction(this.#extraComponents);
             }else{
-                document.getElementById('content').innerHTML = pageFunction();
+                document.getElementById('content').innerHTML = await pageFunction();
             }
             
             document.querySelectorAll("#links").forEach(it => {

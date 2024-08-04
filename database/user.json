@@ -12,6 +12,7 @@
         "total_followed" : 56,
         "followers_posts": [
             {
+                "id":421,
                 "user":{
                     "first_name": "Lorraine",
                     "last_name": "Mum",
@@ -19,10 +20,11 @@
                 },
                 "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
                 "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
-                "uploaded_ago":"1hour ago",
+                "uploaded_ago":"1 hour ago",
                 "comments":[]
             },
             {
+                "id":421,
                 "user":{
                     "first_name": "Joaquin",
                     "last_name": "Stachioni",
@@ -30,7 +32,7 @@
                 },
                 "desc": "Disfrutando de mi homosex",
                 "post":"https://depor.com/resizer/MhnHItcWnZb8Y0PHpFm7f6SBgw0=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UAOH57QBOZG6PDDO7VB3JXQP6I.jpg",
-                "uploaded_ago":"1day ago",
+                "uploaded_ago":"1 day ago",
                 "comments":[]
             }
         ]

@@ -1,4 +1,12 @@
-export function fyp(components) {
+export async function fyp(components) {
+    const actualUserId = localStorage.getItem("user_id");
+    let data = null; // Usa null para indicar que no se ha encontrado aún
+    try {
+        const response = await fetch('../database/fyp.json');
+        data = await response.json();
+    } catch (error) {
+        console.error('Error:', error);
+    }
 return /*html*/ `
 <section id="storys_cont" class="p-1">
     <div class="default_cont max_content flex flex_column">
@@ -20,8 +28,10 @@ return /*html*/ `
         </div>
     </div>
 </section>
-<section id="posts" class="p-1 flex gap-2 flex_column">
-        ${components["post"]()}    
+<section id="posts" class="p-1 flex flex_column">
+${data.map(post => {
+    return components["post"](post);
+})}  
 </section>
 `;
 }

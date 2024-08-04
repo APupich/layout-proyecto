@@ -9,6 +9,6 @@ export async function header() {
     } catch (error) {
         console.error('Error:', error);
     }
-    return /*html */ `<h2>Hello ${user.first_name}</h2>
+    return /*html */ `<h2>Hello ${user.first_name}!</h2>
     <img src="${user.avatar}" class="avatar" />`
 }

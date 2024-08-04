@@ -1,0 +1,30 @@
+[
+    {
+        "id":1223,
+        "first_name": "Cina",
+        "last_name": "Timon",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+        "biography": "Usuaria chilena fanatica de Kiwi"
+    },
+    {
+        "id":12223,
+        "first_name": "Bill",
+        "last_name": "Gates",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+        "biography": "Usuaria chilena fanatica de Kiwi"
+    },
+    {
+        "id":13223,
+        "first_name": "Cina",
+        "last_name": "Timon",
+        "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+        "biography": "Usuaria chilena fanatica de Kiwi"
+    },
+    {
+        "id":132323,
+        "first_name": "Cina",
+        "last_name": "Timon",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+        "biography": "Usuaria chilena fanatica de Kiwi"
+    }
+]
