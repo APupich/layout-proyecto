@@ -9,7 +9,7 @@ export function search() {
             </div>
         </section>
 
-        <section id="users" class="p-1 flex gap-2 flex_column">
+        <section id="users" class="p-1 flex gap-1 flex_column">
             
         </section>`
  }

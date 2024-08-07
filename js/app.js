@@ -24,32 +24,8 @@ const pages = {
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    let render = new LayoutRenderer(pages, [navbar, header], [post]);
+    let render = new LayoutRenderer(pages, [navbar, header,userComponent], [post]);
     await render.renderMain('search'); //vista default
-
     localStorage.setItem('user_id', 4124);
-    document.querySelectorAll(".bio p").forEach(it =>{
-        it.addEventListener("click",expand)
-    })
-
-    if(render.getActualPage){
-        document.querySelector(".search-bar").addEventListener("input", search_bar)
-    }
-}
-
-function expand({target}) {
-    let bio = document.getElementById(target.id) 
-    bio.classList.toggle("plegado")
-}
-
-async function search_bar({target:{value}}) {
-    let data = null; // Usa null para indicar que no se ha encontrado aún
-    try {
-        const response = await fetch('../database/users.json');
-        data = await response.json();
-    } catch (error) {
-        console.error('Error:', error);
-    }
-    document.getElementById("users").innerHTML = /*html */`
-    ${data.map((i)=>{return userComponent(i)})}`
+    
 }

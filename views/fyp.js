@@ -28,10 +28,10 @@ return /*html*/ `
         </div>
     </div>
 </section>
-<section id="posts" class="p-1 flex flex_column">
+<section id="posts" class="p-1 flex flex_column gap-2">
 ${data.map(post => {
     return components["post"](post);
-})}  
+}).join("")}  
 </section>
 `;
 }

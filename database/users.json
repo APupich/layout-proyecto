@@ -1,30 +1,415 @@
 [
     {
-        "id":1223,
+        "id": 1223,
         "first_name": "Cina",
         "last_name": "Timon",
         "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
-        "biography": "Usuaria chilena fanatica de Kiwi"
+        "biography": "Usuaria chilena fanática de Kiwi"
     },
     {
-        "id":12223,
+        "id": 12223,
         "first_name": "Bill",
         "last_name": "Gates",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "biography": "Co-fundador de Microsoft 💻 | Filántropo y activista global 🌍 | Enfocado en la innovación, la educación y la salud | Amante de la lectura 📚 | Explorador de soluciones para un mundo mejor."
+    },
+    {
+        "id": 1224,
+        "first_name": "Elon",
+        "last_name": "Musk",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "biography": "CEO de Tesla y SpaceX 🚀 | Innovador en tecnología y sostenibilidad 🌍 | Emprendedor y visionario"
+    },
+    {
+        "id": 1225,
+        "first_name": "Jeff",
+        "last_name": "Bezos",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "biography": "Fundador de Amazon 📦 | Explorador espacial con Blue Origin 🚀 | Filántropo y empresario"
+    },
+    {
+        "id": 1226,
+        "first_name": "Oprah",
+        "last_name": "Winfrey",
         "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
-        "biography": "Usuaria chilena fanatica de Kiwi"
+        "biography": "Presentadora de televisión, productora y filántropa 🌟. Transformadora de vidas a través de los medios y la caridad."
     },
     {
-        "id":13223,
-        "first_name": "Cina",
-        "last_name": "Timon",
+        "id": 1227,
+        "first_name": "Stephen",
+        "last_name": "Hawking",
+        "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+        "biography": "Físico teórico y cosmólogo 🪐 | Autor de 'Una breve historia del tiempo' 📚 | Icono de la ciencia moderna y la resistencia"
+    },
+    {
+        "id": 1228,
+        "first_name": "Shakira",
+        "last_name": "Mebarak",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+        "biography": "Cantante colombiana con múltiples premios Grammy 🎶 | Activista social y defensora de la educación en su país natal."
+    },
+    {
+        "id": 1229,
+        "first_name": "Leonardo",
+        "last_name": "DiCaprio",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+        "biography": "Actor de renombre 🌟 | Activista medioambiental 🌍 | Fundador de la Leonardo DiCaprio Foundation, dedicada a la protección del planeta."
+    },
+    {
+        "id": 1230,
+        "first_name": "Ellen",
+        "last_name": "DeGeneres",
         "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
-        "biography": "Usuaria chilena fanatica de Kiwi"
+        "biography": "Comediante y presentadora 🌟 | Defensora de los derechos LGBT+ y bienestar animal. La risa es su herramienta para el cambio."
     },
     {
-        "id":132323,
-        "first_name": "Cina",
-        "last_name": "Timon",
+        "id": 1231,
+        "first_name": "Barack",
+        "last_name": "Obama",
+        "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+        "biography": "44º Presidente de EE.UU. 🇺🇸 | Autor y orador inspirador | Defensor de la democracia y la igualdad."
+    },
+    {
+        "id": 1232,
+        "first_name": "Angelina",
+        "last_name": "Jolie",
         "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
-        "biography": "Usuaria chilena fanatica de Kiwi"
+        "biography": "Actriz premiada 🎬 | Embajadora de Buena Voluntad de la ONU 🌍 | Activista por los derechos humanos y la paz."
+    },
+    {
+        "id": 1233,
+        "first_name": "J.K.",
+        "last_name": "Rowling",
+        "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+        "biography": "Autora de Harry Potter 📚 | Filántropa y defensora de la educación y los derechos humanos. Su magia va más allá de la literatura."
+    },
+    {
+        "id": 1234,
+        "first_name": "Taylor",
+        "last_name": "Swift",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+        "biography": "Cantante y compositora 🎤 | Activista por los derechos LGBT+ y defensora de la igualdad en la industria de la música."
+    },
+    {
+        "id": 1235,
+        "first_name": "Will",
+        "last_name": "Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+        "biography": "Actor y productor 🎬 | Ganador de múltiples premios y filántropo dedicado a causas sociales."
+    },
+    {
+        "id": 1236,
+        "first_name": "Ariana",
+        "last_name": "Grande",
+        "avatar": "https://randomuser.me/api/portraits/women/7.jpg",
+        "biography": "Cantante y actriz 🎤 | Defensora de los derechos de los animales y activista social. Su música inspira a millones."
+    },
+    {
+        "id": 1237,
+        "first_name": "Emma",
+        "last_name": "Watson",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+        "biography": "Actriz y activista 🌟 | Embajadora de Buena Voluntad de la ONU | Defensora de la igualdad de género y la educación."
+    },
+    {
+        "id": 1238,
+        "first_name": "Ryan",
+        "last_name": "Reynolds",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+        "biography": "Actor y productor 🎬 | Fundador de la Fundación Gente en Necesidad | Comprometido con causas sociales y de salud."
+    },
+    {
+        "id": 1239,
+        "first_name": "Beyoncé",
+        "last_name": "Knowles",
+        "avatar": "https://randomuser.me/api/portraits/women/9.jpg",
+        "biography": "Cantante y actriz 🎤 | Activista por los derechos humanos y la igualdad de género | Su música y caridad inspiran a muchas personas."
+    },
+    {
+        "id": 1240,
+        "first_name": "Brad",
+        "last_name": "Pitt",
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "biography": "Actor y productor 🎬 | Co-fundador de la organización Make It Right | Dedicado a la reconstrucción y apoyo en comunidades."
+    },
+    {
+        "id": 1241,
+        "first_name": "Rihanna",
+        "last_name": "Fenty",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+        "biography": "Cantante y empresaria 🎤 | Fundadora de la Fundación Clara Lionel | Activista social y de salud global."
+    },
+    {
+        "id": 1242,
+        "first_name": "Natalie",
+        "last_name": "Portman",
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "biography": "Actriz y activista 🎬 | Defensora de los derechos de los animales y de la igualdad de género | Filántropa y académica."
+    },
+    {
+        "id": 1243,
+        "first_name": "Keanu",
+        "last_name": "Reeves",
+        "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+        "biography": "Actor y filántropo 🎬 | Conocido por su humildad y apoyo a varias causas benéficas | Amante de la música y el cine."
+    },
+    {
+        "id": 1244,
+        "first_name": "Chris",
+        "last_name": "Hemsworth",
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "biography": "Actor australiano 🎬 | Famoso por su papel como Thor en Marvel | Entusiasta del fitness y defensor de la salud mental."
+    },
+    {
+        "id": 1245,
+        "first_name": "Zendaya",
+        "last_name": "Coleman",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+        "biography": "Actriz y cantante 🎤 | Joven estrella de 'Euphoria' y 'Spider-Man' | Defensora de la justicia social y la igualdad."
+    },
+    {
+        "id": 1246,
+        "first_name": "Emma",
+        "last_name": "Roberts",
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "biography": "Actriz de televisión y cine 🎬 | Reconocida por su trabajo en 'American Horror Story' y 'Scream Queens'."
+    },
+    {
+        "id": 1247,
+        "first_name": "Meryl",
+        "last_name": "Streep",
+        "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+        "biography": "Legendaria actriz 🎭 | Ganadora de múltiples premios Oscar | Activista por los derechos humanos y el medio ambiente."
+    },
+    {
+        "id": 1248,
+        "first_name": "Tom",
+        "last_name": "Hanks",
+        "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+        "biography": "Actor y productor 🏆 | Conocido por sus papeles en 'Forrest Gump' y 'Saving Private Ryan' | Activista y filántropo."
+    },
+    {
+        "id": 1249,
+        "first_name": "Julia",
+        "last_name": "Roberts",
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "biography": "Actriz galardonada 🌟 | Famosa por sus papeles en 'Pretty Woman' y 'Erin Brockovich' | Activista y defensora de causas humanitarias."
+    },
+    {
+        "id": 1250,
+        "first_name": "Leonardo",
+        "last_name": "da Vinci",
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "biography": "Genio del Renacimiento 🎨 | Pintor, inventor y científico | Su legado sigue inspirando a la humanidad."
+    },
+    {
+        "id": 1251,
+        "first_name": "Marie",
+        "last_name": "Curie",
+        "avatar": "https://randomuser.me/api/portraits/women/16.jpg",
+        "biography": "Pionera en la ciencia 🔬 | Ganadora de dos premios Nobel en Física y Química | Su investigación revolucionó el campo de la radioactividad."
+    },
+    {
+        "id": 1252,
+        "first_name": "Warren",
+        "last_name": "Buffett",
+        "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+        "biography": "Inversor y filántropo 📈 | CEO de Berkshire Hathaway | Conocido por su sabiduría financiera y su generosidad."
+    },
+    {
+        "id": 1253,
+        "first_name": "George",
+        "last_name": "Clooney",
+        "avatar": "https://randomuser.me/api/portraits/men/16.jpg",
+        "biography": "Actor, director y activista 🎬 | Conocido por sus papeles en 'Ocean's Eleven' y su trabajo humanitario en Sudán."
+    },
+    {
+        "id": 1254,
+        "first_name": "Michael",
+        "last_name": "Jordan",
+        "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+        "biography": "Leyenda del baloncesto 🏀 | Seis veces campeón de la NBA | Empresario y filántropo."
+    },
+    {
+        "id": 1255,
+        "first_name": "Malala",
+        "last_name": "Yousafzai",
+        "avatar": "https://randomuser.me/api/portraits/women/17.jpg",
+        "biography": "Activista por la educación 📚 | Ganadora del Premio Nobel de la Paz | Defensora de los derechos de las niñas y jóvenes."
+    },
+    {
+        "id": 1256,
+        "first_name": "Nelson",
+        "last_name": "Mandela",
+        "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+        "biography": "Líder y activista por la paz 🌍 | Primer presidente negro de Sudáfrica | Símbolo de la lucha contra el apartheid."
+    },
+    {
+        "id": 1257,
+        "first_name": "Gandhi",
+        "last_name": "Mahatma",
+        "avatar": "https://randomuser.me/api/portraits/men/19.jpg",
+        "biography": "Líder del movimiento de independencia de India 🕉️ | Defensor de la no violencia y la igualdad social."
+    },
+    {
+        "id": 1258,
+        "first_name": "Jimi",
+        "last_name": "Hendrix",
+        "avatar": "https://randomuser.me/api/portraits/men/20.jpg",
+        "biography": "Legendario guitarrista 🎸 | Innovador del rock y la música psicodélica | Su influencia perdura en la música moderna."
+    },
+    {
+        "id": 1259,
+        "first_name": "Freddie",
+        "last_name": "Mercury",
+        "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+        "biography": "Vocalista de Queen 🎤 | Icono del rock y la música glam | Su legado continúa inspirando a artistas."
+    },
+    {
+        "id": 1260,
+        "first_name": "John",
+        "last_name": "Lennon",
+        "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+        "biography": "Músico y activista 🎸 | Co-fundador de The Beatles | Defensor de la paz y el amor universal."
+    },
+    {
+        "id": 1261,
+        "first_name": "Kurt",
+        "last_name": "Cobain",
+        "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
+        "biography": "Vocalista de Nirvana 🎸 | Figura central del grunge y la música alternativa | Su música sigue influyendo en generaciones."
+    },
+    {
+        "id": 1262,
+        "first_name": "David",
+        "last_name": "Bowie",
+        "avatar": "https://randomuser.me/api/portraits/men/24.jpg",
+        "biography": "Icono musical 🎤 | Innovador del rock y el pop | Su legado cultural abarca décadas de influencia."
+    },
+    {
+        "id": 1263,
+        "first_name": "Stephen",
+        "last_name": "King",
+        "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
+        "biography": "Autor de bestsellers 📚 | Maestro del terror y la ficción | Su obra ha sido adaptada a cine y televisión."
+    },
+    {
+        "id": 1264,
+        "first_name": "George",
+        "last_name": "Lucas",
+        "avatar": "https://randomuser.me/api/portraits/men/26.jpg",
+        "biography": "Creador de 'Star Wars' 🎬 | Fundador de Lucasfilm y Skywalker Sound | Pionero en efectos especiales y narrativa cinematográfica."
+    },
+    {
+        "id": 1265,
+        "first_name": "Steven",
+        "last_name": "Spielberg",
+        "avatar": "https://randomuser.me/api/portraits/men/27.jpg",
+        "biography": "Director y productor 🎬 | Ganador de múltiples Oscars | Conocido por películas como 'E.T.' y 'Jurassic Park'."
+    },
+    {
+        "id": 1266,
+        "first_name": "James",
+        "last_name": "Cameron",
+        "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
+        "biography": "Director y productor 🎬 | Conocido por 'Titanic' y 'Avatar' | Innovador en tecnología cinematográfica."
+    },
+    {
+        "id": 1267,
+        "first_name": "Tim",
+        "last_name": "Cook",
+        "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+        "biography": "CEO de Apple 🍏 | Líder en innovación tecnológica y estrategias empresariales | Dedicado a la privacidad y sostenibilidad."
+    },
+    {
+        "id": 1268,
+        "first_name": "Satya",
+        "last_name": "Nadella",
+        "avatar": "https://randomuser.me/api/portraits/men/30.jpg",
+        "biography": "CEO de Microsoft 💻 | Visionario en la nube y la inteligencia artificial | Defensor de la inclusión y el empoderamiento."
+    },
+    {
+        "id": 1269,
+        "first_name": "Jack",
+        "last_name": "Ma",
+        "avatar": "https://randomuser.me/api/portraits/men/31.jpg",
+        "biography": "Fundador de Alibaba 🛒 | Innovador en comercio electrónico y tecnología | Filántropo y orador inspirador."
+    },
+    {
+        "id": 1270,
+        "first_name": "Richard",
+        "last_name": "Branson",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+        "biography": "Fundador de Virgin Group 🚀 | Emprendedor y aventurero | Defensor del turismo espacial y la sostenibilidad."
+    },
+    {
+        "id": 1271,
+        "first_name": "Larry",
+        "last_name": "Page",
+        "avatar": "https://randomuser.me/api/portraits/men/33.jpg",
+        "biography": "Co-fundador de Google 🔍 | Innovador en tecnología y búsqueda en internet | Visionario en el desarrollo de inteligencia artificial."
+    },
+    {
+        "id": 1272,
+        "first_name": "Sergey",
+        "last_name": "Brin",
+        "avatar": "https://randomuser.me/api/portraits/men/34.jpg",
+        "biography": "Co-fundador de Google 🔍 | Pionero en tecnología y búsqueda en internet | Comprometido con la investigación científica."
+    },
+    {
+        "id": 1273,
+        "first_name": "Peter",
+        "last_name": "Thiel",
+        "avatar": "https://randomuser.me/api/portraits/men/35.jpg",
+        "biography": "Inversor y empresario 💼 | Co-fundador de PayPal y Palantir | Defensor de la innovación y el emprendimiento."
+    },
+    {
+        "id": 1274,
+        "first_name": "Sheryl",
+        "last_name": "Sandberg",
+        "avatar": "https://randomuser.me/api/portraits/women/18.jpg",
+        "biography": "Ex-COO de Facebook 📱 | Autora de 'Lean In' y defensora de la igualdad de género en el lugar de trabajo."
+    },
+    {
+        "id": 1275,
+        "first_name": "Susan",
+        "last_name": "Wojcicki",
+        "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
+        "biography": "CEO de YouTube 🎥 | Pionera en la tecnología de video en línea y defensora de la diversidad en los medios."
+    },
+    {
+        "id": 1276,
+        "first_name": "Marissa",
+        "last_name": "Mayer",
+        "avatar": "https://randomuser.me/api/portraits/women/20.jpg",
+        "biography": "Ex-CEO de Yahoo 💻 | Anteriormente en Google | Innovadora en tecnología y defensora de la educación STEM para mujeres."
+    },
+    {
+        "id": 1277,
+        "first_name": "Martha",
+        "last_name": "Stewart",
+        "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+        "biography": "Empresaria y presentadora 📺 | Experta en estilo de vida y hogar | Autora de varios libros de cocina y diseño."
+    },
+    {
+        "id": 1278,
+        "first_name": "Jared",
+        "last_name": "Leto",
+        "avatar": "https://randomuser.me/api/portraits/men/36.jpg",
+        "biography": "Músico y actor 🎤 | Vocalista de Thirty Seconds to Mars y conocido por sus papeles en el cine | Activista social."
+    },
+    {
+        "id": 1279,
+        "first_name": "Gwyneth",
+        "last_name": "Paltrow",
+        "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+        "biography": "Actriz y empresaria 🎬 | Fundadora de Goop | Defensora de la salud y el bienestar."
+    },
+    {
+        "id": 1280,
+        "first_name": "Scarlett",
+        "last_name": "Johansson",
+        "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+        "biography": "Actriz y cantante 🎤 | Famosa por su papel en 'Lost in Translation' y 'The Avengers' | Activista por los derechos de las mujeres."
     }
 ]
