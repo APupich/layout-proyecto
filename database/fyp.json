@@ -1,5 +1,16 @@
-[
-    {
+{
+    "storys" : [
+        {
+            "id_story": 1645,
+            "user":{
+                "id":1223,
+                "first_name":"Cina",
+                "last_name":"Gates"
+            },
+            "image":"https://static.emol.cl/emol50/Fotos/2019/02/05/file_20190205181249.jpg"
+        }
+    ],
+    "posts" : [{
         "id":1223,
         "user": {
             "first_name": "Cina",
@@ -58,5 +69,5 @@
         "post": "https://lh3.googleusercontent.com/proxy/xsZtI2vk7ETbSNLkm9zX7sj9nPoi2BTO16ZVvvy4YHzmDixDKlGEEF-HEhzn8BE-Nomly3pN355ORQnonMHTR5JW2JFi0BhvSbNLy_lILpFsW0T1JUTU8aSHaa0I0tGG7C1ZizgfXijDdP3Cb3vU2kXjwItwTA",
         "uploaded_ago": "1 hour ago",
         "comments": []
-    }
-]
+    }]
+}

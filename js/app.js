@@ -10,8 +10,8 @@ import { register } from '../views/register.js';
 import { header } from '../components/header.js';
 import { navbar } from '../Components/navbar.js';
 import { post } from '../components/post.js';
-import {userComponent} from '../components/userComponent.js'
-
+import { userComponent } from '../components/userComponent.js'
+import { story } from "../components/story.js";
 const pages = {
     "register": register,
     "home" : home,
@@ -24,8 +24,11 @@ const pages = {
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    let render = new LayoutRenderer(pages, [navbar, header,userComponent], [post]);
-    await render.renderMain('search'); //vista default
+    let render = new LayoutRenderer(pages, [navbar, header,userComponent], [post,story]);
+    await render.renderMain('register'); //vista default
     localStorage.setItem('user_id', 4124);
-    
+    const hash = window.location.hash.substring(1)
+    if (hash) {
+        await render.renderMain(hash);
+    }
 }

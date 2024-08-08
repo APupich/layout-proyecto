@@ -25,11 +25,14 @@ return /*html*/ `
                     <p class="p-1">Add new</p>
                 </div>
             </article>
+            ${data.storys.map(st => {
+                return components["story"](st);
+            }).join("")}
         </div>
     </div>
 </section>
-<section id="posts" class="p-1 flex flex_column gap-2">
-${data.map(post => {
+<section id="posts" class="p-1 flex flex_column gap-3">
+${data.posts.map(post => {
     return components["post"](post);
 }).join("")}  
 </section>

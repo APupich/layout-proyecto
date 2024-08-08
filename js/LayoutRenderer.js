@@ -89,7 +89,7 @@ export class LayoutRenderer {
     }
     async chargeFunctions() {
         
-        document.querySelectorAll("#nav-div span").forEach((it) => {
+        document.querySelectorAll("#nav-div a").forEach((it) => {
             it.addEventListener("click",  () => {
                 this.renderMain(it.id);
                 let actualPage = document.getElementById(this.#actualPage);

@@ -53,7 +53,8 @@ h5{font-size: 0.9rem;}
 .flex-end{justify-content: flex-end;}
 .float-r{float: right;}
 .gap-1{gap: .5rem;}
-.gap-2{gap: 2rem}
+.gap-2{gap: 2rem;}
+.gap-3{gap: 1rem;}
 .fixed{position: fixed;}
 .width17{width: 17rem;}
 .width16{width: 16rem;}
@@ -69,12 +70,13 @@ h5{font-size: 0.9rem;}
 .ptop-3{padding-top: 2rem;}
 .pbot-3{padding-bottom: 2rem;}
 .i-selected{text-shadow: 1px 1px 2px #a16c0a, 0 0 1em #a16c0a, 0 0 0.2em #a16c0a;}
-
+.cover{object-fit: cover;}
 .default_cont{
     background-color: var(--bg_article);
     border-radius: .4rem;
 }
 .nav-item {
+    color: #333232;
     transition: text-shadow 0.5s ease;
 }
 .max_content{

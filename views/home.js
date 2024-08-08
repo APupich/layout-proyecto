@@ -56,7 +56,7 @@ export async function home(components) {
             </article>
         </section>
 
-        <section id="posts" class="p-1 flex flex_column gap-2">
+        <section id="posts" class="p-1 flex flex_column gap-3">
         ${user.followers_posts.map(post => {
             return components["post"](post);
         }).join('')}   
