@@ -1,7 +1,7 @@
 
 export function register() {
     
-    return /*html */`<section id="tittle" class="grid_center ">
+    return /*html */`<section id="tittle" class="grid-center ">
     <div>
         <h1 class="margin1rem align_txt">TweetHub</h1>
         <h5 class="align_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>

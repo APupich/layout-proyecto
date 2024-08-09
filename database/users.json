@@ -7,6 +7,13 @@
         "biography": "Usuaria chilena fanática de Kiwi"
     },
     {
+        "id": 122351,
+        "first_name": "Luca",
+        "last_name": "Cabral",
+        "avatar": "https://farmalife.vteximg.com.br/arquivos/ids/178039-1200-1200/7798108451642.jpg?v=638043034919370000",
+        "biography": "Hola  "
+    },
+    {
         "id": 12223,
         "first_name": "Bill",
         "last_name": "Gates",
@@ -411,5 +418,12 @@
         "last_name": "Johansson",
         "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
         "biography": "Actriz y cantante 🎤 | Famosa por su papel en 'Lost in Translation' y 'The Avengers' | Activista por los derechos de las mujeres."
+    },
+    {
+        "id": 1281,
+        "first_name": "Tobias",
+        "last_name": "Ungarron",
+        "avatar": "https://randomuser.me/api/portraits/men/78.jpg",
+        "biography": "Actriz porno y empresaria 🎬 | Fundadora de Goop | Defensor de la salud y el bienestar y Si al racismo."
     }
 ]

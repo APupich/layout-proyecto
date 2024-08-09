@@ -4,10 +4,11 @@
             "id_story": 1645,
             "user":{
                 "id":1223,
-                "first_name":"Cina",
+                "first_name":"Máximo",
                 "last_name":"Gates"
             },
             "image":"https://static.emol.cl/emol50/Fotos/2019/02/05/file_20190205181249.jpg"
+            
         }
     ],
     "posts" : [{
@@ -66,8 +67,20 @@
             "avatar": "https://www.lanacion.com.ar/resizer/v2/javier-IFNQCAT5AZG73EGUOGUUQR4B2Q.jpg?auth=8a851f48338cae4ce03c70c5e8a1a54a67b9efb7b308295ff429a9fb8184c5f7&width=420&height=280&quality=70&smart=true"
         },
         "desc": "Les voy a decir la verdad que tanto estuvieron esperando, Porfavor LEER ATENTAMENTE: La economía argentina es un complejo entramado de dinámicas macroeconómicas y microeconómicas,caracterizado por una serie de características distintivas que subrayan tanto sus desafíos como sus oportunidades. A lo largo de las últimas décadas, la economía argentina ha experimentado fluctuaciones significativas, enmarcadas en un contexto de inestabilidad política y social que ha condicionado su desempeño económico. En términos de estructura económica, Argentina se clasifica como una economía emergente con una notable dependencia de los sectores primario y terciario. El sector agrícola, en particular, desempeña un rol preeminente en la economía argentina, con una producción extensiva de cultivos como la soja, el maíz y el trigo, que son esenciales para el comercio exterior del país. La dinámica del mercado internacional de commodities, junto con las políticas de subsidios y aranceles, influye en la competitividad de las exportaciones argentinas, impactando de manera significativa en la balanza comercial. Uno de los principales desafíos económicos que enfrenta Argentina es la elevada inflación. La inflación persistente, a menudo alimentada por un déficit fiscal crónico y una expansión monetaria desmedida, ha erosionado el poder adquisitivo de la moneda nacional, el peso argentino. Esta situación ha generado una serie de problemas colaterales, incluyendo la dolarización de ciertos segmentos de la economía y la fuga de capitales. La política monetaria del Banco Central, en su afán por controlar la inflación, ha recurrido a medidas como el ajuste de tasas de interés y la intervención en el mercado cambiario, aunque con resultados mixtos. El contexto fiscal es igualmente complejo. El déficit fiscal, resultado de una estructura de gasto público expansiva y una recaudación tributaria insuficiente, ha llevado a un aumento en la deuda externa. La sostenibilidad de la deuda argentina ha sido objeto de escrutinio internacional, especialmente en el marco de las negociaciones con organismos multilaterales como el Fondo Monetario Internacional (FMI). Las condiciones impuestas por estos acuerdos de financiamiento a menudo incluyen medidas de austeridad que tienen implicaciones significativas para el crecimiento económico y la cohesión social. La economía argentina también está marcada por un entorno empresarial caracterizado por una elevada carga regulatoria y un marco institucional en constante cambio. Las reformas estructurales, destinadas a mejorar la competitividad y promover la inversión extranjera directa, han sido implementadas de manera intermitente y con resultados diversos. La burocracia administrativa y la corrupción sistémica representan obstáculos significativos para el desarrollo empresarial, desincentivando la inversión y contribuyendo a la informalidad del mercado laboral. En términos de desarrollo humano, el país ha logrado avances notables en indicadores sociales como la educación y la salud. Sin embargo, la desigualdad persistente y la pobreza siguen siendo problemas acuciantes. Las políticas de protección social y los programas de transferencia de ingresos han sido implementados para mitigar estos problemas, pero su eficacia está condicionada por la capacidad del Estado para gestionar eficientemente los recursos y combatir la evasión fiscal. El panorama económico argentino también está condicionado por factores externos, como las fluctuaciones en los precios internacionales de los commodities, las tensiones comerciales globales y las condiciones económicas en los principales socios comerciales, como Brasil y China. La volatilidad en los mercados financieros internacionales y las crisis económicas globales pueden exacerbar los problemas estructurales de la economía argentina, afectando su capacidad para crecer de manera sostenida. En resumen, la economía argentina es un sistema intrincado que refleja tanto sus potencialidades como sus vulnerabilidades. Los desafíos estructurales, como la inflación elevada, el déficit fiscal y la deuda externa, están en el centro del debate económico, mientras que la búsqueda de reformas estructurales y la gestión de factores externos siguen siendo elementos cruciales para su estabilidad y crecimiento futuro. La capacidad del país para navegar estos desafíos y capitalizar sus fortalezas será determinante para su trayectoria económica en los años venideros. ",
-        "post": "https://lh3.googleusercontent.com/proxy/xsZtI2vk7ETbSNLkm9zX7sj9nPoi2BTO16ZVvvy4YHzmDixDKlGEEF-HEhzn8BE-Nomly3pN355ORQnonMHTR5JW2JFi0BhvSbNLy_lILpFsW0T1JUTU8aSHaa0I0tGG7C1ZizgfXijDdP3Cb3vU2kXjwItwTA",
+        "post": "https://i.ytimg.com/vi/sHWPAVJdQX8/sddefault.jpg",
         "uploaded_ago": "1 hour ago",
         "comments": []
-    }]
+    },{
+        "id":123,
+        "user": {
+            "first_name": "Luca",
+            "last_name": "Cabral",
+            "avatar": "https://farmalife.vteximg.com.br/arquivos/ids/178039-1200-1200/7798108451642.jpg?v=638043034919370000"
+        },
+        "desc": "Ayudante reconocido de la empresa multi-nacional PupichCorp",
+        "post": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/48/posts/32691/image/David-Steward.jpg",
+        "uploaded_ago": "30 minutes ago",
+        "comments": []
+    }
+]
 }

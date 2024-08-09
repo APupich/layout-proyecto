@@ -102,6 +102,7 @@ export class LayoutRenderer {
         auxx.forEach((it) => {
             it.addEventListener("click", this.expand);
         });
+        
         if (this.getActualPage) {
             let aux = document.querySelector(".search-bar")
             if (aux) {
