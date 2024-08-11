@@ -28,14 +28,18 @@ export class LayoutRenderer {
         this.extraComponents = buff;
     }
 
-    async renderMain(pageName) {
+    async renderMain(pageName, idChat = 0) {
         
         console.log(pageName);
         this.#actualPage = pageName;
         const pageFunction = this.#pages[pageName];
-
         if (pageFunction) {
-            if (pageFunction.length >= 1) {
+            if (pageFunction.length == 2) {
+                document.getElementById("content").innerHTML = await pageFunction(
+                    this.extraComponents,
+                    idChat
+                );
+            }else if (pageFunction.length == 1) {
                 document.getElementById("content").innerHTML = await pageFunction(
                     this.extraComponents
                 );
@@ -49,9 +53,8 @@ export class LayoutRenderer {
                 });
             });
             await this.search_bar({target: {value: ""}});
-            this.renderHeader(pageName);
             this.renderNavbar(pageName);
-            
+            this.renderHeader(idChat);
             let actualPage = document.getElementById(this.#actualPage);
             if (actualPage) {
                 actualPage.classList.add("selected");
@@ -60,12 +63,20 @@ export class LayoutRenderer {
             document.getElementById("content").innerHTML = "<h1>404 Not Found</h1>";
         }
     }
-    async renderHeader() {
+    async renderHeader(idChat) {
         let headerE = document.querySelector("header");
         headerE.classList.add("flex", "flex_centerx", "flex_spbw", "p-1");
+        headerE.classList.remove("bg-white","fixed");
         switch (this.#actualPage) {
             case "home":
-                document.getElementById("header").innerHTML = await this.components["header"]();
+                document.getElementById("header").innerHTML = await this.components["header_home"]();
+                break;
+            case "chats":
+                document.getElementById("header").innerHTML = await this.components["header_chats"]();
+                break;
+            case "chat":
+                headerE.classList.add("bg-white","fixed");
+                document.getElementById("header").innerHTML = await this.components["header_chat"](idChat);
                 break;
             default:
                 document.getElementById("header").innerHTML = "";
@@ -87,8 +98,8 @@ export class LayoutRenderer {
                 break;
         }
     }
-    async chargeFunctions() {
-        
+    chargeFunctions() {
+        //carga la navbar, los links
         document.querySelectorAll("#nav-div a").forEach((it) => {
             it.addEventListener("click",  () => {
                 this.renderMain(it.id);
@@ -98,18 +109,28 @@ export class LayoutRenderer {
                 }
             });
         });
+        
+        //expandir para publicaciones con mas texto q el permitido
         let auxx = document.querySelectorAll(".bio p");
         auxx.forEach((it) => {
             it.addEventListener("click", this.expand);
         });
-        
+        // barra de busqueda, se actualiza con cada nuevo caracter ingresado
         if (this.getActualPage) {
             let aux = document.querySelector(".search-bar")
             if (aux) {
                 aux.addEventListener("input", this.search_bar);
             }
         }
-        
+        //ingresa al chat seleccionado
+        if (this.getActualPage) {
+            let aux2 = document.querySelectorAll("#chats_cont article")
+            aux2.forEach(async (c)=>{
+                c.addEventListener("click",({target})=>{
+                    this.renderMain("chat",target.id)
+                })
+            })
+        }
     }
     getActualPage() {
         return this.#actualPage;
@@ -138,7 +159,7 @@ export class LayoutRenderer {
             let aux = document.getElementById("users")
             if (aux) {
                 aux.innerHTML = /*html */ `
-                ${data.map((i) => this.components["userComponent"](i)).join("")}`;
+                ${data.map((i) => this.extraComponents["userComponent"](i)).join("")}`;
             }
         }
     }

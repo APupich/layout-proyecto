@@ -1,0 +1,357 @@
+[
+    {
+        "id": 1223,
+        "first_name": "Tu",
+        "last_name": "Mamá",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+        "last_chat": "Te ❤️",
+        "last_chat_time" : "30m",
+        "silenced":true,
+        "chat": [
+        {
+            "from": "other",
+            "message": "Hola, ¿cómo estás?",
+            "timestamp": "2024-08-11T10:00:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Hola, estoy bien, gracias. ¿Y tú?",
+            "timestamp": "2024-08-11T10:01:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Estoy trabajando en un proyecto nuevo en Rust.",
+            "timestamp": "2024-08-11T10:02:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¡Eso suena interesante! ¿En qué consiste el proyecto?",
+            "timestamp": "2024-08-11T10:03:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Es una API que se conecta a una base de datos MySQL usando Diesel.",
+            "timestamp": "2024-08-11T10:04:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Genial. ¿Necesitas ayuda con algo específico?",
+            "timestamp": "2024-08-11T10:05:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy buscando una forma de manejar mejor los errores en la API.",
+            "timestamp": "2024-08-11T10:06:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Podrías usar algún middleware para capturar y manejar errores.",
+            "timestamp": "2024-08-11T10:07:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Buena idea. También estoy configurando un servidor Apache.",
+            "timestamp": "2024-08-11T10:08:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Y cómo va eso? ¿Necesitas ayuda con la configuración?",
+            "timestamp": "2024-08-11T10:09:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy teniendo problemas con phpMyAdmin.",
+            "timestamp": "2024-08-11T10:10:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Qué problemas estás encontrando?",
+            "timestamp": "2024-08-11T10:11:00Z"
+        }
+    ]
+    },
+    {
+        "id": 12235,
+        "first_name": "Luca",
+        "last_name": "Cabral",
+        "avatar": "https://farmalife.vteximg.com.br/arquivos/ids/178039-1200-1200/7798108451642.jpg?v=638043034919370000",
+        "last_chat": "Despues ablamos de la tesis",
+        "last_chat_time" : "1h",
+        "silenced":false,
+        "chat": [
+        {
+            "from": "other",
+            "message": "Hola, ¿cómo estás?",
+            "timestamp": "2024-08-11T10:00:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Hola, estoy bien, gracias. ¿Y tú?",
+            "timestamp": "2024-08-11T10:01:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Estoy trabajando en un proyecto nuevo en Rust.",
+            "timestamp": "2024-08-11T10:02:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¡Eso suena interesante! ¿En qué consiste el proyecto?",
+            "timestamp": "2024-08-11T10:03:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Es una API que se conecta a una base de datos MySQL usando Diesel.",
+            "timestamp": "2024-08-11T10:04:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Genial. ¿Necesitas ayuda con algo específico?",
+            "timestamp": "2024-08-11T10:05:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy buscando una forma de manejar mejor los errores en la API.",
+            "timestamp": "2024-08-11T10:06:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Podrías usar algún middleware para capturar y manejar errores.",
+            "timestamp": "2024-08-11T10:07:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Buena idea. También estoy configurando un servidor Apache.",
+            "timestamp": "2024-08-11T10:08:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Y cómo va eso? ¿Necesitas ayuda con la configuración?",
+            "timestamp": "2024-08-11T10:09:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy teniendo problemas con phpMyAdmin.",
+            "timestamp": "2024-08-11T10:10:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Qué problemas estás encontrando?",
+            "timestamp": "2024-08-11T10:11:00Z"
+        }
+    ]
+    },
+    {
+        "id": 12223,
+        "first_name": "Bill",
+        "last_name": "Gates",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "last_chat": "Entonces aceptas el trato?",
+        "last_chat_time" : "2d",
+        "silenced":false,
+        "chat": [
+        {
+            "from": "other",
+            "message": "Hola, ¿cómo estás?",
+            "timestamp": "2024-08-11T10:00:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Hola, estoy bien, gracias. ¿Y tú?",
+            "timestamp": "2024-08-11T10:01:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Estoy trabajando en un proyecto nuevo en Rust.",
+            "timestamp": "2024-08-11T10:02:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¡Eso suena interesante! ¿En qué consiste el proyecto?",
+            "timestamp": "2024-08-11T10:03:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Es una API que se conecta a una base de datos MySQL usando Diesel.",
+            "timestamp": "2024-08-11T10:04:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Genial. ¿Necesitas ayuda con algo específico?",
+            "timestamp": "2024-08-11T10:05:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy buscando una forma de manejar mejor los errores en la API.",
+            "timestamp": "2024-08-11T10:06:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Podrías usar algún middleware para capturar y manejar errores.",
+            "timestamp": "2024-08-11T10:07:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Buena idea. También estoy configurando un servidor Apache.",
+            "timestamp": "2024-08-11T10:08:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Y cómo va eso? ¿Necesitas ayuda con la configuración?",
+            "timestamp": "2024-08-11T10:09:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy teniendo problemas con phpMyAdmin.",
+            "timestamp": "2024-08-11T10:10:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Qué problemas estás encontrando?",
+            "timestamp": "2024-08-11T10:11:00Z"
+        }
+    ]
+    },
+    {
+        "id": 1224,
+        "first_name": "Elon",
+        "last_name": "Musk",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "last_chat": "Te voy a regalar un viaje a marte, porfavor contesta",
+        "last_chat_time" : "3d",
+        "silenced":true,
+        "chat": [
+        {
+            "from": "other",
+            "message": "Hola, ¿cómo estás?",
+            "timestamp": "2024-08-11T10:00:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Hola, estoy bien, gracias. ¿Y tú?",
+            "timestamp": "2024-08-11T10:01:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Estoy trabajando en un proyecto nuevo en Rust.",
+            "timestamp": "2024-08-11T10:02:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¡Eso suena interesante! ¿En qué consiste el proyecto?",
+            "timestamp": "2024-08-11T10:03:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Es una API que se conecta a una base de datos MySQL usando Diesel.",
+            "timestamp": "2024-08-11T10:04:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Genial. ¿Necesitas ayuda con algo específico?",
+            "timestamp": "2024-08-11T10:05:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy buscando una forma de manejar mejor los errores en la API.",
+            "timestamp": "2024-08-11T10:06:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Podrías usar algún middleware para capturar y manejar errores.",
+            "timestamp": "2024-08-11T10:07:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Buena idea. También estoy configurando un servidor Apache.",
+            "timestamp": "2024-08-11T10:08:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Y cómo va eso? ¿Necesitas ayuda con la configuración?",
+            "timestamp": "2024-08-11T10:09:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy teniendo problemas con phpMyAdmin.",
+            "timestamp": "2024-08-11T10:10:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Qué problemas estás encontrando?",
+            "timestamp": "2024-08-11T10:11:00Z"
+        }
+    ]
+    },
+    {
+        "id": 1225445,
+        "first_name": "Jeffrey ",
+        "last_name": "Dahmer",
+        "avatar": "https://cdn.mos.cms.futurecdn.net/hDDQjDsqoo7hZ9FJj2cC75.jpg",
+        "last_chat": "Cambia de look, me estas robando atencion",
+        "last_chat_time" : "1w",
+        "silenced":true,
+        "chat": [
+        {
+            "from": "other",
+            "message": "Hola, ¿cómo estás?",
+            "timestamp": "2024-08-11T10:00:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Hola, estoy bien, gracias. ¿Y tú?",
+            "timestamp": "2024-08-11T10:01:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Estoy trabajando en un proyecto nuevo en Rust.",
+            "timestamp": "2024-08-11T10:02:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¡Eso suena interesante! ¿En qué consiste el proyecto?",
+            "timestamp": "2024-08-11T10:03:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Es una API que se conecta a una base de datos MySQL usando Diesel.",
+            "timestamp": "2024-08-11T10:04:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Genial. ¿Necesitas ayuda con algo específico?",
+            "timestamp": "2024-08-11T10:05:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy buscando una forma de manejar mejor los errores en la API.",
+            "timestamp": "2024-08-11T10:06:00Z"
+        },
+        {
+            "from": "me",
+            "message": "Podrías usar algún middleware para capturar y manejar errores.",
+            "timestamp": "2024-08-11T10:07:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Buena idea. También estoy configurando un servidor Apache.",
+            "timestamp": "2024-08-11T10:08:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Y cómo va eso? ¿Necesitas ayuda con la configuración?",
+            "timestamp": "2024-08-11T10:09:00Z"
+        },
+        {
+            "from": "other",
+            "message": "Sí, estoy teniendo problemas con phpMyAdmin.",
+            "timestamp": "2024-08-11T10:10:00Z"
+        },
+        {
+            "from": "me",
+            "message": "¿Qué problemas estás encontrando?",
+            "timestamp": "2024-08-11T10:11:00Z"
+        }
+    ]
+    }
+]

@@ -55,7 +55,9 @@ h5{font-size: 0.9rem;}
 .gap-1{gap: .5rem;}
 .gap-2{gap: 2rem;}
 .gap-3{gap: 1rem;}
+
 .fixed{position: fixed;}
+.sticky{position: sticky;}
 .width17{width: 17rem;}
 .width16{width: 16rem;}
 .p-05{padding: 0.3rem;}
@@ -99,6 +101,7 @@ body{
 }
 main{
     height: 80%;
+    
 }
 header{
     width: 100%;
@@ -183,10 +186,46 @@ input[type="search"]::-webkit-search-cancel-button{
     }
 }
 #content{
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 #users{
     article{
-        height: 4rem;
+        height: 4.2rem;
     }
 }
+#chats_cont{
+    article{
+        height: 4.2rem;
+    }
+}
+/* #chat_cont{
+    article{
+        clear: both;
+        max-width: 70%;
+        margin: .25rem;
+    }
+    .msg-left{
+        float: left;
+        background-color: #ebeaea;
+    }
+    .msg-right{
+        float: right;
+        background-color: #3797f0;
+    }
+} */
+#chat_cont {
+    padding-top: 6rem;
+    gap: 10px;
+    article {
+        max-width: 75%;
+    }
+    .msg-left {
+        align-self: flex-start;
+        background-color: #e0e0ff;
+    }
+    .msg-right {
+        align-self: flex-end;
+        background-color: #3797f0; 
+    }
+}
+
