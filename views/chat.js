@@ -7,9 +7,6 @@ export async function chat(components,idUser) {
         console.error('Error:', error);
     }
     const filteredUser = users.find(user => user.id == idUser);
-    if (filteredUser) {
-        console.log("g")
-    }
     return /*html */`
         <section id="chat_cont" class="flex flex_column gap-1 p-1 bg-white">
             ${filteredUser.chat.map(u => {
