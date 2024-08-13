@@ -28,7 +28,7 @@ export async function user(pCompo, eCompo) {
             <p class="txt_subtitle">Seguidos</p>
         </div>
     </section>
-    <section id="my_posts" class="bg-white flex flex_column mtop-1 p-1">
+    <section id="my_posts" class="bg-white flex flex_column mtop-1 p-1 pbot-3">
         <div class="sticky flex flex_spbw flex_centerx bold-5 bg-white">
             <p class="f-12">Your posts</p>
             <div class="flex">
@@ -39,15 +39,7 @@ export async function user(pCompo, eCompo) {
             </div>
         </div>
         <div class="wrap flex gap-1 flex_centery">
-            <article class="br-04 of-hidden relative">
-                <div class="absolute flex flex_centery">
-                    <span class="material-symbols-outlined txt_red">
-                        favorite
-                    </span>
-                    <p class="bold-5">120</p>
-                </div>
-                <img src="https://i.pinimg.com/736x/22/be/35/22be350c0c942c1f537a57cd5cc34b23.jpg" alt="">
-            </article>
+            
             ${user.my_posts.map(post => {
                 return eCompo["post_mini"](post);
             }).join('')}
