@@ -29,22 +29,22 @@ export class LayoutRenderer {
     }
 
     async renderMain(pageName, idChat = 0) {
-        
+        this.renderHeader();
         console.log(pageName);
         this.#actualPage = pageName;
         const pageFunction = this.#pages[pageName];
         if (pageFunction) {
-            if (pageFunction.length == 2) {
+            if (pageFunction.length == 3) {
                 document.getElementById("content").innerHTML = await pageFunction(
+                    this.components,
                     this.extraComponents,
                     idChat
                 );
-            }else if (pageFunction.length == 1) {
+            }else{
                 document.getElementById("content").innerHTML = await pageFunction(
+                    this.components,
                     this.extraComponents
                 );
-            } else {
-                document.getElementById("content").innerHTML = await pageFunction();
             }
 
             document.querySelectorAll("#links").forEach((it) => {
@@ -54,7 +54,6 @@ export class LayoutRenderer {
             });
             await this.search_bar({target: {value: ""}});
             this.renderNavbar(pageName);
-            this.renderHeader(idChat);
             let actualPage = document.getElementById(this.#actualPage);
             if (actualPage) {
                 actualPage.classList.add("selected");
@@ -63,25 +62,9 @@ export class LayoutRenderer {
             document.getElementById("content").innerHTML = "<h1>404 Not Found</h1>";
         }
     }
-    async renderHeader(idChat) {
-        let headerE = document.querySelector("header");
-        headerE.classList.add("flex", "flex_centerx", "flex_spbw", "p-1");
-        headerE.classList.remove("bg-white","fixed");
-        switch (this.#actualPage) {
-            case "home":
-                document.getElementById("header").innerHTML = await this.components["header_home"]();
-                break;
-            case "chats":
-                document.getElementById("header").innerHTML = await this.components["header_chats"]();
-                break;
-            case "chat":
-                headerE.classList.add("bg-white","fixed");
-                document.getElementById("header").innerHTML = await this.components["header_chat"](idChat);
-                break;
-            default:
-                document.getElementById("header").innerHTML = "";
-                break;
-        }
+    async renderHeader() {
+        header.classList.remove("bg-white","fixed");
+        header.innerHTML = ""
     }
     renderNavbar() {
         let footer = document.querySelector("#nav");

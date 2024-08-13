@@ -10,7 +10,7 @@ import { register } from '../views/register.js';
 
 import { header_home,header_chats,header_chat} from '../components/header.js';
 import { navbar } from '../Components/navbar.js';
-import { post } from '../components/post.js';
+import { post, post_mini } from '../components/post.js';
 import { userComponent,userChatComponent } from '../components/userComponent.js'
 import { story } from "../components/story.js";
 import { chatComponent } from '../components/chatComponent.js'
@@ -27,7 +27,9 @@ const pages = {
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
-    let render = new LayoutRenderer(pages, [navbar, header_home,header_chats,header_chat], [post,story,userComponent,userChatComponent,chatComponent]);
+    let principalCompo = [navbar, header_home,header_chats,header_chat];
+    let extraCompo =    [post,story,userComponent,userChatComponent,chatComponent,post_mini] 
+    let render = new LayoutRenderer(pages, principalCompo, extraCompo );
     await render.renderMain('register'); //vista default
     localStorage.setItem('user_id', 4124);
     const hash = window.location.hash.substring(1)

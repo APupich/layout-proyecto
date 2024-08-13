@@ -1,4 +1,7 @@
-export async function chats(components) {
+export async function chats(pCompo,components) {
+    header.innerHTML = await pCompo["header_chats"]();
+    header.classList.add("flex", "flex_centerx", "flex_spbw", "p-1");
+    
     let users = null; // Usa null para indicar que no se ha encontrado aún
     try {
         const response = await fetch('../database/chats.json');

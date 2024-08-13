@@ -35,7 +35,6 @@ return /*html */ `
                 display: flex;
                 justify-content: center;
                 background-color: brown;
-
             }
         </style>
 

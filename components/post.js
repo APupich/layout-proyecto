@@ -28,3 +28,15 @@ export function post(data) {
     </footer>
 </article>`
 }
+export function post_mini(data) {
+
+    return /*html */ `<article class="br-04 of-hidden relative" id="${data.id_post}">
+                <div class="absolute flex flex_centery flex_centerx">
+                    <span class="material-symbols-outlined txt_red">
+                        favorite
+                    </span>
+                    <p class="bold-5 f-08 txt_white">${data.favourites}</p>
+                </div>
+                <img src="${data.post}" alt="">
+            </article>`
+}

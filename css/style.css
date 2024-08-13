@@ -20,6 +20,7 @@
 .f-15{font-size: 1.5rem;}
 .f-18{font-size: 1.8rem;}
 .bold-1{font-weight: 100;}
+.bold-4{font-weight: 400;}
 .bold-5{font-weight: 500;}
 
 h1{font-size: 2.6rem;}
@@ -28,6 +29,7 @@ h5{font-size: 0.9rem;}
 .txt_white{color: azure;}
 .txt_center{text-align: center;}
 .txt_grey{color: #434343;}
+.txt_red{color: rgb(167, 4, 4);}
 
 .br-04{border-radius: 0.4rem;}
 .br-50{border-radius: 50%;}
@@ -53,12 +55,15 @@ h5{font-size: 0.9rem;}
 .flex_spar{justify-content: space-around;}
 .flex_column{flex-direction: column;}
 .flex-end{justify-content: flex-end;}
+.wrap{flex-wrap: wrap;}
 .float-r{float: right;}
 .gap-1{gap: .5rem;}
 .gap-2{gap: 2rem;}
 .gap-3{gap: 1rem;}
 
 .fixed{position: fixed;}
+.relative{position: relative;}
+.absolute{position: absolute;}
 .sticky{position: sticky;}
 .width17{width: 17rem;}
 .width16{width: 16rem;}
@@ -69,6 +74,7 @@ h5{font-size: 0.9rem;}
 
 .m-1{margin: 0.6rem;}
 .mright-1{margin-right: 0.6rem;}
+.mleft-1{margin-left: 0.6rem;}
 .mtop-1{margin-top: 0.6rem;}
 
 .ptop-1{padding-top: 0.6rem;}
@@ -116,6 +122,11 @@ header{
 footer{
     width: 100%;
     height: 8%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .button_login{
     width: 20rem;
@@ -226,7 +237,20 @@ input[type="search"]::-webkit-search-cancel-button{
     }
 }
 #my_posts{
-    width: 100%;
-    height: 3rem;
-    top: 0px;
+    .sticky{
+        width: 100%;
+        height: 3rem;
+        top: 0px;
+        z-index: 1;
+    }
+    .wrap{width: 100%;}
+    article{
+        flex: 0 1 6rem;
+        height: 12rem;
+        .absolute{
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.144) 0%,rgba(128, 128, 128, 0.459) 20%, rgba(128, 128, 128, 0.452) 80%, rgba(255, 255, 255, 0.144)100%);
+            width: 100%;
+            bottom: 0;
+        }
+    }
 }

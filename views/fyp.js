@@ -1,4 +1,5 @@
-export async function fyp(components) {
+export async function fyp(pcompo,components) {
+
     const actualUserId = localStorage.getItem("user_id");
     let data = null; // Usa null para indicar que no se ha encontrado aún
     try {

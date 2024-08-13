@@ -1,4 +1,7 @@
-export async function home(components) {
+export async function home(pCompo,eCompo) {
+    header.innerHTML = await pCompo["header_home"]();
+    header.classList.add("flex", "flex_centerx", "flex_spbw", "p-1");
+    
     const actualUserId = localStorage.getItem("user_id");
     let user = null; // Usa null para indicar que no se ha encontrado aún
     try {
@@ -58,7 +61,7 @@ export async function home(components) {
 
         <section id="posts" class="p-1 flex flex_column gap-3">
         ${user.followers_posts.map(post => {
-            return components["post"](post);
+            return eCompo["post"](post);
         }).join('')}   
         </section>`;
 }
