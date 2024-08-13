@@ -4,12 +4,71 @@
         "first_name" : "Agustin",
         "last_name": "Pupich",
         "avatar" : "https://randomuser.me/api/portraits/men/83.jpg",
+        "biography" : "CEO de PupichCorp, Jefe de todos, amo de las tierras, rey de el mundo y tula gorda",
         "notifications" : 7,
         "new_events" : 4,
         "new_messages" : 13,
         "new_followers" : 2,
         "total_followers" : 134,
         "total_followed" : 56,
+        "my_posts":[
+            {
+                "id":421,
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1 hour ago",
+                "comments":[]
+            },{
+                "id":421,
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1 hour ago",
+                "comments":[]
+            },{
+                "id":421,
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1 hour ago",
+                "comments":[]
+            },{
+                "id":421,
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1 hour ago",
+                "comments":[]
+            },{
+                "id":421,
+                "user":{
+                    "first_name": "Lorraine",
+                    "last_name": "Mum",
+                    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+                },
+                "desc": "Que lindas las montañas peruanas, lastima los que viven aca",
+                "post":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7X6QRBZ8GC41hW0Z0fmC7WQUELS9HrES0fKzuAZlkW1Spu0Gt-ytUYZWVenn1qXRVo8&usqp=CAU",
+                "uploaded_ago":"1 hour ago",
+                "comments":[]
+            }
+        ],
         "followers_posts": [
             {
                 "id":421,

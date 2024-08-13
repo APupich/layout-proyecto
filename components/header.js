@@ -25,7 +25,7 @@ export async function header_chats() {
         console.error('Error:', error);
     }
     return /*html */ `<h2 class="font-ui">Your Chats!</h2>
-    <img src="${user.avatar}" class="avatar" />`
+    `
 }
 
 export async function header_chat(idUser) {
