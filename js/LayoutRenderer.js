@@ -40,6 +40,7 @@ export class LayoutRenderer {
                     this.extraComponents,
                     idChat
                 );
+                window.scrollTo(0, document.body.scrollHeight)
             }else{
                 document.getElementById("content").innerHTML = await pageFunction(
                     this.components,

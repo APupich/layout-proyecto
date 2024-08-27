@@ -72,6 +72,7 @@ h5{font-size: 0.9rem;}
 .p-15{padding: 0.8rem;}
 .p-2{padding: 1rem;}
 
+.m-05{margin: 0.3rem;}
 .m-1{margin: 0.6rem;}
 .mright-1{margin-right: 0.6rem;}
 .mleft-1{margin-left: 0.6rem;}
@@ -209,7 +210,7 @@ input[type="search"]::-webkit-search-cancel-button{
     }
 }
 #content{
-    margin-bottom: 4rem;
+    margin-bottom: 2.8rem;
 }
 #users{
     article{

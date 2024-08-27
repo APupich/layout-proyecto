@@ -15,7 +15,7 @@ export function post(data) {
     </header>
     <main>
         <div class="bio">
-            <p id="${data.id}" class="p-05 f-09 font-ui txt_truncate plegado">${data.desc}</p>
+            <p id="${data.id}" class="m-05 f-09 font-ui txt_truncate plegado of-hidden">${data.desc}</p>
             <img class="br-04 max_content"
                 src="${data.post}"
                 alt="" />

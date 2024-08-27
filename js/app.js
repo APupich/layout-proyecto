@@ -9,7 +9,7 @@ import { user } from '../views/user.js';
 import { register } from '../views/register.js';
 
 import { header_home,header_chats,header_chat} from '../components/header.js';
-import { navbar } from '../Components/navbar.js';
+import { navbar } from '../components/navbar.js';
 import { post, post_mini } from '../components/post.js';
 import { userComponent,userChatComponent } from '../components/userComponent.js'
 import { story } from "../components/story.js";
