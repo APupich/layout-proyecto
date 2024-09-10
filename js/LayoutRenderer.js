@@ -128,7 +128,7 @@ export class LayoutRenderer {
         
         let data = null; // Usa null para indicar que no se ha encontrado aún
         try {
-            const response = await fetch("../database/users.json");
+            const response = await fetch("./database/users.json");
             data = await response.json();
         } catch (error) {
             console.error("Error:", error);
