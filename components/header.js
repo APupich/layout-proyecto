@@ -3,7 +3,7 @@ export async function header_home() {
     const actualUserId = localStorage.getItem("user_id");
     let user = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/user.json');
+        const response = await fetch('./database/user.json');
         const data = await response.json();
         user = data.find(i => i.id == actualUserId) ; // Usa null si no se encuentra el usuario
     } catch (error) {
@@ -18,7 +18,7 @@ export async function header_chats() {
     const actualUserId = localStorage.getItem("user_id");
     let user = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/user.json');
+        const response = await fetch('./database/user.json');
         const data = await response.json();
         user = data.find(i => i.id == actualUserId) ; // Usa null si no se encuentra el usuario
     } catch (error) {
@@ -31,7 +31,7 @@ export async function header_chats() {
 export async function header_chat(idUser) {
     let users = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/chats.json');
+        const response = await fetch('./database/chats.json');
         users = await response.json();
     } catch (error) {
         console.error('Error:', error);

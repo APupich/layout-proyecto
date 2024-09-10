@@ -3,7 +3,7 @@ export async function fyp(pcompo,components) {
     const actualUserId = localStorage.getItem("user_id");
     let data = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/fyp.json');
+        const response = await fetch('./database/fyp.json');
         data = await response.json();
     } catch (error) {
         console.error('Error:', error);

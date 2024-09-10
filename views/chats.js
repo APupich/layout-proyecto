@@ -4,7 +4,7 @@ export async function chats(pCompo,components) {
     
     let users = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/chats.json');
+        const response = await fetch('./database/chats.json');
         users = await response.json();
     } catch (error) {
         console.error('Error:', error);

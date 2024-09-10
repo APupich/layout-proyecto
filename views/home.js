@@ -5,7 +5,7 @@ export async function home(pCompo,eCompo) {
     const actualUserId = localStorage.getItem("user_id");
     let user = null; // Usa null para indicar que no se ha encontrado aún
     try {
-        const response = await fetch('../database/user.json');
+        const response = await fetch('./database/user.json');
         const data = await response.json();
         user = data.find(i => i.id == actualUserId) ; // Usa null si no se encuentra el usuario
     } catch (error) {
